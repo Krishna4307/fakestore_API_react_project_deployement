@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    box-sizing: border-box;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(51, 52, 86);
+    text-decoration: none;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: rgb(194, 193, 193);
+}
+.link:hover{
+    color: white;
+}

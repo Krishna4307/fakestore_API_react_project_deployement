@@ -1,0 +1,241 @@
+#facilities-section{
+    display: grid;
+    grid-template-rows: auto 100px 325px auto;
+    background-image: url("src/assets/facilities-page-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#facilities-section .section1{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    background-image: url("src/assets/facilities-hero-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -45px;
+    width: 100%;
+    padding-top: 100px; 
+    margin-bottom: -45px; 
+}
+#facilities-section .section1 h1{
+    padding-left: 180px;
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+#facilities-section .section1 h4{
+    padding-left: 180px;
+    font-size: 22px;
+    color: rgb(15, 13, 13);
+}
+#facilities-section .section1 p{
+    padding-left: 180px;
+    width: 600px;
+}
+#facilities-section .section1 div{
+    padding-left: 180px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+#facilities-section .section1 div .explore-btn{
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(2, 83, 2);
+    color: white;
+    padding: 8px 21px 8px 21px;
+}
+#facilities-section .section1 div .contact-btn{
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 8px 21px 8px 21px;
+}
+
+#facilities-section .section2{
+    margin-top: 0px;
+    background-color: rgb(240, 241, 240);
+}
+#facilities-section .section2 ul{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+#facilities-section .section2 ul li{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    gap: 12px;
+    /* background-color: rebeccapurple; */
+}
+#facilities-section .section2 ul li img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+}
+#facilities-section .section2 ul li p{
+    width: 125px;
+    margin-top: 5px;
+}
+#facilities-section .section3{
+    display: grid;
+    /* background-color: rgb(241, 235, 228); */
+    grid-template-columns: 45% 40%;
+    column-gap: 10%; 
+}
+#facilities-section .section3 .div1 img{
+    width: 92%;
+    height: 300px;
+    margin-left: 125px;
+    align-self: center;
+    border-radius: 25px;
+    margin-top: -10px;
+}
+#facilities-section .section3 #div2{
+  display: grid;
+  justify-content: flex-start;
+  align-content: center;
+  grid-template-rows:auto auto auto auto; 
+  row-gap: 5px;
+}
+#facilities-section .section3 .div2 h4{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-left: 0px;
+}
+#facilities-section .section3 .div2 h2{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 0px;
+}
+#facilities-section .section3 .div2 p{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+#facilities-section .section3 .div2 ul{
+    display: grid;
+    grid-template-columns: 125px 125px 125px 125px;
+    list-style: none;
+    margin-top: 25px;
+    margin-left: -30px;
+}
+#facilities-section .section3 .div2 ul li{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+} 
+#facilities-section .section3 .div2 ul li img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(216, 213, 213);
+    padding: 5px;
+}
+#facilities-section .section3 .div2 ul li p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+
+/* #facilities-section .section4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    justify-items: center;
+}
+#facilities-section .section4 h1 {
+    margin: 0;
+}
+
+#facilities-section .section4 ul {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    gap: 25px;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    column-gap: 5px;
+}
+#facilities-section .section4 ul li{
+    align-content: center;
+    justify-items: center;
+}
+#facilities-section .section4 ul li img{
+    width: 150px;
+    height: 100px;
+    border-radius: 25px;
+} 
+#facilities-section .section4 ul li h4{
+    font-size: 16px;
+}
+#facilities-section .section4 ul li p{
+    font-size: 12px;
+} */
+
+#facilities-section .section4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+#facilities-section .section4 h4{
+    margin-left: 42px;
+    letter-spacing: 2px;
+    color: brown;
+    font-size: 22px;
+}
+#facilities-section .section4 p{
+    margin-left: 42px;
+    color: rgb(78, 77, 77);
+    font-size: 18px;
+}
+#facilities-section .section4 h2{
+    margin-left: 42px;
+    color: rgb(9, 76, 26);
+    font-size: 35px;
+    font-weight: 700;
+}
+#facilities-section .section4 ul{
+    display: grid;
+    grid-template-columns: repeat(6,235px);
+    grid-template-rows: auto;
+    /* align-items: center; */
+    column-gap: 5px;
+    justify-content: center;
+    list-style: none;
+}
+#facilities-section .section4 ul li{
+    background-color: rgb(234, 232, 232);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding-bottom: 8px;
+}
+#facilities-section .section4 ul li img{
+    
+    width: 99%;
+    border-radius: 5px;
+    height: 150px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    /* padding: 8px; */
+    align-self: center;
+}
+#facilities-section .section4 ul li h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 15px;
+    color: rgb(39, 39, 39);
+}
+#facilities-section .section4 ul li p{
+    font-size: 14px;
+    color: rgb(34, 34, 34);
+    width: 175px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    /* font-weight: 700; */
+}

@@ -1,0 +1,12 @@
+import Products from "./products";
+import Home from "./home";
+import { Link } from "react-router-dom";
+function Navbar(){
+    return(
+        <div>
+            <Link to="/">Home</Link>
+            <Link to="products">Products</Link>
+        </div>
+    )
+}
+export default Navbar;

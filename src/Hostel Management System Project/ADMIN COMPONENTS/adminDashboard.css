@@ -1,0 +1,13 @@
+.boxes-div{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    width: 95%;
+    background-color: #f2f2ef;
+    padding: 25px;
+    height: auto;
+}
+.boxes-div div{
+    border: 1px solid black;
+    padding: 10px;
+}
