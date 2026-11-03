@@ -1,3 +1,5 @@
+# Project Live Link
+  Click here: https://krishna4307.github.io/fakestore_API_react_project_deployement/
 # 🛒 FakeStore API – E-Commerce Web Application
   #Project Description
     FakeStore API is a React-based e-commerce web application that fetches product data from the FakeStore API and dynamically displays 
